@@ -1,0 +1,9 @@
+chessboard 是个棋盘类
+1.自定义棋盘大小
+	实例化对象方法chessboard(init_state,r,c) 参数init_state为二维数组，自定义初始值（0代表空格）；
+	r为二维数组的行数，c为二维数组的列数，均为int。返回一个实例化对象。
+2.棋盘操作
+	move_random(action) 参数action指明对棋盘整体移动操作的方向，为str类型，限于‘w’，‘a’，‘s’，‘d’，
+	无返回值。
+3.获取棋盘的当前状态
+	get_state() 返回一个二维数组，代表当前棋盘的状态。

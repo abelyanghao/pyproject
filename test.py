@@ -121,28 +121,4 @@ def main():
 
 
 main()
-'''init_state = [[0,4,4,2],
-		[8,8,8,4],
-		[0,0,2,2],
-		[0,0,0,0]]
-
-for i in range(4):
-	for j in range(4):
-		if init_state[i][j] == 0:
-			init_state[i][j] = choice([0,2,4])
-myPrint(init_state)'''
-
-
-'''def test(state):
-	print('old_state:')
-	myPrint(state)
-	print('new_state:')
-	myPrint(move(state,'a'))
-	print()
-	myPrint(state)
-
-test([[0,4,4,2],
-	[8,8,8,4],
-	[0,0,2,2],
-	[0,0,0,0]])'''
 
